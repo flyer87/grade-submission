@@ -6,8 +6,11 @@ import java.util.UUID;
 public class Grade {
     @NotBlank(message = "Name can not be blank")
     private String name;
+
     @NotBlank(message = "Subject can not be blank")
     private String subject;
+
+    @Score(message = "Score must be a letter grade")
     private String score;
     private String id;
 
@@ -38,7 +41,6 @@ public class Grade {
     public void setScore(String score) {
         this.score = score;
     }
-
 
     public String getId() {
         return this.id;
