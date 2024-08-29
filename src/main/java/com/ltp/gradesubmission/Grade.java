@@ -1,5 +1,7 @@
 package com.ltp.gradesubmission;
 
+import com.ltp.gradesubmission.validation.annotations.Score;
+
 import javax.validation.constraints.NotBlank;
 import java.util.UUID;
 

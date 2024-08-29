@@ -1,4 +1,6 @@
-package com.ltp.gradesubmission;
+package com.ltp.gradesubmission.validation.validators;
+
+import com.ltp.gradesubmission.validation.annotations.Score;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
@@ -20,10 +22,6 @@ public class ScoreValidator implements ConstraintValidator<Score, String> {
     public boolean isValid(String s, ConstraintValidatorContext constraintValidatorContext) {
         Optional<String> optScore = scores.stream().filter(score -> score.equals(s)).findFirst();
 
-        if (optScore.isPresent()) {
-            return true;
-        }
-
-        return false;
+        return optScore.isPresent();
     }
 }

@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="723126e5-9150-4e77-a45a-071c7afa52e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/ScoreValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/repository/GradeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/service/GradeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/GradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/controller/GradeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <module name="grade-submission" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ltp.gradesubmission.*" />
+          <option name="PATTERN" value="com.ltp.gradesubmission.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

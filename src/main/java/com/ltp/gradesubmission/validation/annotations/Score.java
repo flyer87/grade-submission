@@ -1,4 +1,6 @@
-package com.ltp.gradesubmission;
+package com.ltp.gradesubmission.validation.annotations;
+
+import com.ltp.gradesubmission.validation.validators.ScoreValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
