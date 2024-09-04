@@ -29,20 +29,20 @@ public class GradeService {
         return gradeRepository.getGrades();
     }
 
-    public int getGradeIndex(String id) {
+    public int getGradeIndexById(String id) {
         for (int i = 0; i < getGrades().size(); i++) {
-            if (getGrades().get(i).getId().equals(id)) return i;
+            if (getGrade(i).getId().equals(id)) return i;
         }
         return Constants.NOT_FOUND;
     }
 
     public Grade getGradeById(String id) {
-        int index = getGradeIndex(id);
+        int index = getGradeIndexById(id);
         return index == Constants.NOT_FOUND ? new Grade() : getGrade(index);
     }
 
     public void submitGrade(Grade grade) {
-        int index = getGradeIndex(grade.getId());
+        int index = getGradeIndexById(grade.getId());
         if (index == Constants.NOT_FOUND) {
             addGrade(grade);
         } else {

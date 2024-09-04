@@ -9,6 +9,13 @@ public class Grade {
     @NotBlank(message = "Name can not be blank")
     private String name;
 
+    public Grade(String name, String subject, String score) {
+        this.id = UUID.randomUUID().toString();
+        this.name = name;
+        this.subject = subject;
+        this.score = score;
+    }
+
     @NotBlank(message = "Subject can not be blank")
     private String subject;
 

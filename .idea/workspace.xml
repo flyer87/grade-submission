@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723126e5-9150-4e77-a45a-071c7afa52e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/repository/GradeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/service/GradeService.java" afterDir="false" />
+    <list default="true" id="723126e5-9150-4e77-a45a-071c7afa52e5" name="Changes" comment="Add unit tests for GradeService">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ltp/gradesubmission/GradeServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/GradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/controller/GradeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/service/GradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ltp/gradesubmission/service/GradeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,33 +43,116 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GradeSubmissionApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/prele/Documents/Udemy/Spring Bootcamp/projects/grade-submission-git&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GradeSubmissionApplication.executor": "Run",
+    "JUnit.GradeServiceTest.executor": "Run",
+    "JUnit.GradeServiceTest.getGradeByIdTest.executor": "Run",
+    "JUnit.GradeServiceTest.getGradeIndexByIDTest.executor": "Run",
+    "JUnit.GradeServiceTest.getGradeIndexByIdTest.executor": "Run",
+    "JUnit.GradeServiceTest.getGradeIndexTest.executor": "Debug",
+    "JUnit.GradeServiceTest.getGradesFromRepoTest.executor": "Run",
+    "JUnit.GradeServiceTest.submitGradeTest.executor": "Run",
+    "JUnit.GradeServiceTest.updateGradeTest.executor": "Run",
+    "JUnit.GradeSubmissionApplicationTests.executor": "Run",
+    "JUnit.java in grade-submission.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/prele/Documents/Udemy/Spring Bootcamp/Workbooks/Workbook and challenges 5.x/global-superstore/starter/global-superstore",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="GradeSubmissionApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ltp.gradesubmission.GradeSubmissionApplication" />
+}]]></component>
+  <component name="RunManager" selected="JUnit.GradeServiceTest.updateGradeTest">
+    <configuration name="GradeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="grade-submission" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ltp.gradesubmission.controller.*" />
+          <option name="PATTERN" value="com.ltp.gradesubmission.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ltp.gradesubmission" />
+      <option name="MAIN_CLASS_NAME" value="com.ltp.gradesubmission.GradeServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeServiceTest.getGradeByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grade-submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ltp.gradesubmission.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ltp.gradesubmission" />
+      <option name="MAIN_CLASS_NAME" value="com.ltp.gradesubmission.GradeServiceTest" />
+      <option name="METHOD_NAME" value="getGradeByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeServiceTest.getGradeIndexByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grade-submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ltp.gradesubmission.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ltp.gradesubmission" />
+      <option name="MAIN_CLASS_NAME" value="com.ltp.gradesubmission.GradeServiceTest" />
+      <option name="METHOD_NAME" value="getGradeIndexByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeServiceTest.submitGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grade-submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ltp.gradesubmission.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ltp.gradesubmission" />
+      <option name="MAIN_CLASS_NAME" value="com.ltp.gradesubmission.GradeServiceTest" />
+      <option name="METHOD_NAME" value="submitGradeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeServiceTest.updateGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grade-submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ltp.gradesubmission.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ltp.gradesubmission" />
+      <option name="MAIN_CLASS_NAME" value="com.ltp.gradesubmission.GradeServiceTest" />
+      <option name="METHOD_NAME" value="updateGradeTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GradeSubmissionApplication" />
+        <item itemvalue="JUnit.GradeServiceTest.updateGradeTest" />
+        <item itemvalue="JUnit.GradeServiceTest.getGradeIndexByIdTest" />
+        <item itemvalue="JUnit.GradeServiceTest" />
+        <item itemvalue="JUnit.GradeServiceTest.submitGradeTest" />
+        <item itemvalue="JUnit.GradeServiceTest.getGradeByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +165,31 @@
       <option name="presentableId" value="Default" />
       <updated>1720210012722</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactor for 3-layer architecture">
+      <option name="closed" value="true" />
+      <created>1724932646843</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724932646843</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor for 3-layer architecture" />
+    <MESSAGE value="Add unit tests for GradeService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit tests for GradeService" />
   </component>
 </project>
